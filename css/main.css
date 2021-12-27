@@ -1,51 +1,53 @@
-body{
-	background-color: #181818 !important;
-	color: white !important;
-}
-
-
-
-#profile-wrapper{
-	text-align: center;
-}
-
-#profile-pic{
-	width: 150px;	
-	height: 150px;
-	border-radius: 50%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-ul{
-	padding: 0;
-    list-style-type: none;
-}
-
-
-.social-links ul, li{
-	list-style-type:none;
-	display: inline-block;
-}
-
-.social{
-	width:20px;
-	height: 20px;
-}
-
-.card {
-	background-color: #404040 !important;
-}
-
-	img {
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-
-.project {
-	width: 60%; 
-	height: 60%;
-	 margin-left: auto; 
-	 margin-right: auto;
-}
+    body {
+        background-color: #181818 !important;
+        color: white !important;
+    }
+    
+    #profile-wrapper {
+        text-align: center;
+    }
+    
+    #profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    ul {
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    .social-links ul {
+        list-style-type: none;
+        display: inline-block;
+        pointer-events: none;
+        display: block;
+    }
+    
+    .social {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .card {
+        background-color: #404040 !important;
+    }
+    
+    img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .project {
+        width: 60%;
+        height: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    hr.profile {
+        border-top: 1px solid white;
+    }
