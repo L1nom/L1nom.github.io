@@ -42,12 +42,36 @@
     }
     
     .project {
-        width: 60%;
-        height: 60%;
+        width: 300px;
+        height: 200px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 10px;
     }
     
     hr.profile {
         border-top: 1px solid white;
     }
+
+    .project-title {
+        text-align: center;
+    }
+
+    #project-text{  
+        color: black;
+        
+    }
+
+    .tags {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1rem 0 1rem;
+    }
+
+    .tags div {
+        font-size: 9px;
+        font-weight: 700;
+        padding: 4px 10px;
+        border: 3px solid #28242f;
+        border-radius: 2rem;
+    }   
