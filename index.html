@@ -1,231 +1,617 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Monil Patel</title>
-    <link rel="icon" href="images/window.png">
-    <link href="css/main.css" rel="stylesheet" type="text/css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+	<!--- basic page needs
+   ================================================== -->
+	<meta charset="utf-8">
+	<title>Monil Patel</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/vendor.css">
+
+	<!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+	<!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="images/window.png">
+
 </head>
 
-<body>
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div id="profile-wrapper" class="card card-body">
-                    <img id="profile-pic" src="images/profile.png">
-                    <hr class="profile">
-                    <h4>Hi, I'm Monil!</h4>
-                    <!-- <p>&nbsp</p> -->
-                    <p>A novice programmer looking to improve his skills!</p>
-                    <ul class="personal-links">
-                        <li>
-                            <img class="social" src="images/place.png"> Toronto, Ontario
-                        </li>
-                        <li>
-                            <img class="social" src="images/gmail.png"> monilp01@gmail.com
-                        </li>
-                        <li>
-                            <img class="social" src="images/phone.png"> 647-966-4057
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-9">
-                <div class="card card-body">
-                    <h4>A Little Bit About Me</h4>
-                    <hr class="profile">
-                    <p>Hello! My name is Monil Patel, and am currently a fourth year software engineering student, and am currently looking for Summer 2022 internship positions for Data Science and Data Analysis. I am highly motivated student, who thrives
-                        in team environment with a high level of communication, collaboration, and critical thinking.
-                    </p>
-                    <p>I always thought programming was difficult, however learning to program is an enjoyable process, and I still have more to learn, understand, and develop! </p>
-                    <!-- <br> -->
-                    <ul class="social-links">
-                        <a target="_blank" href="https://github.com/L1nom">
-                            <li>
-                                <img class="social" src="images/github.png">GitHub
-                            </li>
-                        </a>
-                        <a target="_blank" href="https://www.linkedin.com/in/monil-patel-20a8681ba/">
-                            <li>
-                                <img class="social" src="images/linkedin.png">LinkedIn
-                            </li>
-                        </a>
-                        <a target="_blank" href="https://drive.google.com/file/d/1lmaxFhgBV2OAKUt951H4W0c4LDmT3zod/view?usp=sharing">
-                            <li>
-                                <img class="social" src="images/resume.png">Resume
-                            </li>
-                        </a>
-                        <a target="_blank" href="https://www.twitch.tv/linom_x">
-                            <li>
-                                <img class="social" src="images/twitch.png">Twitch
-                            </li>
-                        </a>
-                        <br>
-                    </ul>
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+	<header>
+		<div class="row">
+
+			<div class="top-bar">
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+				<div class="logo">
+					<a href="index.html">Menu</a>
+				</div>
+
+				<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll" href="#about" title="">About</a></li>
+						<li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
+					</ul>
+				</nav>
+			</div> <!-- /top-bar -->
+
+		</div> <!-- /row -->
+	</header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+	<section id="intro">
+
+		<div class="intro-overlay"></div>
+		<div class="intro-content">
+			<div class="row">
+
+				<div class="col-twelve">
+
+					<h5>Hello, World.</h5>
+					<h1>I'm Monil Patel.</h1>
+
+					<p class="intro-position">
+						<span>Aspiring Data Scientist</span>
+					</p>
+
+					<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+				</div>
+
+			</div>
+		</div> <!-- /intro-content -->
+
+		<ul class="intro-social">
+			<li><a href="https://www.linkedin.com/in/monil-patel-20a8681ba/"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="https://mail.google.com/mail/u/0/?fs=1&to=monilp01@gmai.com&su=SUBJECT&body=BODY&&tf=cm"><i
+						class="fa fa-google"></i></a></li>
+			<li><a href="https://www.instagram.com/linom_patel/"><i class="fa fa-instagram"></i></a></li>
+			<li><a href="https://www.twitch.tv/linom_x"><i class="fa fa-twitch"></i></a></li>
+		</ul> <!-- /intro-social -->
+
+	</section> <!-- /intro -->
 
 
+	<!-- about section
+   ================================================== -->
+	<section id="about">
 
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card card-body">
-                    <h4>My Beginning</h4>
-                    <hr class="profile">
+		<div class="row section-intro">
+			<div class="col-twelve">
 
-                    <p>As many beginners, I started off learning python, since it was "easy to learn" and looked much begginer friendly compared to other languages.
-                        <br> This worked out for me as I loved math, statistics, and data handling. Python has a known reputation for being used in Data Science and Machine Learning, which is something I aspire to find a career in.
-                    </p>
-                    <br>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <h4>My Tools</h4>
-                    <hr class="profile">
+				<h5>About</h5>
+				<h1>Let me introduce myself.</h1>
 
-                    <ul>
-                        <li>Python</li>
-                        <li>PyCharm/Jupyter</li>
-                        <li>SQL</li>
-                        <li>Streamlit</li>
-                        <li>Notion</li>
-                        <li>Excel</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <h4>My Hobbies</h4>
-                    <hr class="profile">
+				<div class="intro-info">
 
-                    <ul>
-                        <li>League of Legends/TFT</li>
-                        <li>Watching anime</li>
-                        <li>Running</li>
-                        <li>Reading</li>
-                        <li>&nbsp</li>
-                        <li>&nbsp</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <br>
+					<img src="images/profile.png" alt="Profile Picture">
 
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card card-body">
-                    <img src="images/handwriting.png" class="project">
-                    <h5 class="project-title">Handwriting Classification</h5>
-                    <hr class="profile">
-                    <p>&nbsp&nbsp&nbsp&nbspThe first project I spent time on was to classify handwriting input from a user. When searching up beginner data science projects, this one interested me for its simplicity and complexity. The dataset was readily
-                        available, and the project steps have a nice introduction to the steps a data science project would incorporate.
-                    </p>
-                    <br>
-                    <br>
-                    <br>
-                    <div class="m-4">
-                        <div class="accordion" id="myAccordion">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">Handwriting Detection</button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                                    <div id="project-text" class="card-body">
-                                        <a href="https://share.streamlit.io/l1nom/character-recognition-webapp/draw.py">HWR Live Deployment App</a>
-                                        <a href="https://github.com/L1nom/Handwritten-Character-Recognition">Character
-                                            Detection Repository</a>
-                                        <div class="tags">
-                                            <div>Python</div>
-                                            <div>Tensorflow</div>
-                                            <div>Jupyter Notebook</div>
-                                            <div>Streamlit</div>
-                                        </div>
+					<p class="lead">Hello! My name is Monil Patel! I am currently a fourth year software engineering
+						student, and currently looking for a Summer 2022 internship positions for Data Science and Data
+						Analysis. I am a highly motivated student, who thrives in a team environment with a high level
+						of communication, collaboration, and critical thinking.</p>
+				</div>
+			</div>
+		</div> <!-- /section-intro -->
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card card-body">
-                    <img src="images/l.png" class="project">
-                    <h5 class="project-title">League of Legends Data Analysis</h5>
-                    <hr class="profile">
-                    <p>&nbsp&nbsp&nbsp&nbspI wanted to try analysing data on something I take see regularly, and what better way than to use data from the game I have played for 6 years! Using the RIOT Games API, I was able to extract data related to an
-                        account, such as wins-loss or match history logs. Along with the use Streamlit, I was able to display the data fetched from a give account, and then show related information on a web interface
-                    </p>
-                    <br>
-                    <br>
-                    <!-- <p>&nbsp</p> -->
-                    <div class="m-4">
-                        <div class="accordion" id="myAccordion">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Linom.GG</button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                                    <div id="project-text" class="card-body">
-                                        <a href="https://share.streamlit.io/l1nom/linom.gg/main.py">Linom,GG Live Deployment</a>
-                                        <br>
-                                        <a href="https://github.com/L1nom/Linom.GG">GitHub Repository</a>
-                                        <div class="tags">
-                                            <div>Python</div>
-                                            <div>Streamlit</div>
-                                            <div>Pycharm</div>
-                                            <div>RIOT API</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card card-body">
-                    <img src="images/runnify.png" class="project">
-                    <h5 class="project-title">Mobile Running Tracker</h5>
-                    <hr class="profile">
-                    <p>&nbsp&nbsp&nbsp&nbspAs a final project for a mobile development course, we made an Android mobile application that would track a users exercise route, whether it be running, biking, or walking, and then save this information to a database
-                        along with important stats such as distance travelled, calories burned, and number of steps taken. This project was a great way to learn and develop a user interface that is different from a web application, while learning a new
-                        language and incorporating key user design choices.
-                    </p>
-                    <div class="m-4">
-                        <div class="accordion" id="myAccordion">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">Runnify Demo</button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                                    <div id="project-text" class="card-body">
-                                        <iframe src="https://drive.google.com/file/d/15RCQoe8EDMc_0ZR9ht15d6AyWQZLqMYJ/preview" width="300" height="200" allow="autoplay"></iframe>
-                                        <div class="tags">
-                                            <div>Android Studio</div>
-                                            <div>Java</div>
-                                            <div>SQLite</div>
-                                        </div>
+		<div class="row about-content">
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <br>
+			<div class="col-four tab-full">
+
+				<h3 class="info-header">Profile</h3>
+
+				<ul class="info-list">
+					<li>
+						<strong>Fullname:</strong>
+						<span>Monil Patel</span>
+					</li>
+					<li>
+						<strong>Birth Date:</strong>
+						<span>August 29, 2000</span>
+					</li>
+					<li>
+						<strong>Website:</strong>
+						<span>https://l1nom.github.io/</span>
+					</li>
+					<li>
+						<strong>Email:</strong>
+						<span>monilp01@gmail.com</span>
+					</li>
+
+				</ul> <!-- /info-list -->
+
+			</div>
+
+			<div class="col-four tab-full">
+
+				<h3 class="info-header">Skills</h3>
+
+				<!-- <ul class="skill-bars">
+					<li>
+						<div class="progress percent85"><span>85%</span></div>
+						<strong>Python</strong>
+					</li>
+					<li>
+						<div class="progress percent85"><span>85%</span></div>
+						<strong>CSS3</strong>
+					</li>
+					<li>
+						<div class="progress percent70"><span>70%</span></div>
+						<strong>JQuery</strong>
+					</li>
+					<li>
+						<div class="progress percent95"><span>95%</span></div>
+						<strong>PHP</strong>
+					</li>
+					<li>
+
+						<div class="progress percent75"><span>75%</span></div>
+						<strong>Wordpress</strong>
+					</li>
+
+				</ul> /skill-bars -->
+				<ul class="info-list">
+					<li>
+						<strong>Python</strong>
+					</li>
+					<li>
+						<strong>SQL</strong>
+					</li>
+
+					<li>
+						<strong>Data Wrangling</strong>
+					</li>
+					<li>
+						<strong>Data Analysis</strong>
+					</li>
+					<li>
+						<strong>EDA</strong>
+					</li>
+					<li>
+						<strong>Machine Learning</strong>
+					</li>
+
+
+				</ul> <!-- /info-list -->
+			</div>
+
+			<div class="col-four tab-full">
+
+				<h3 class="info-header">Tools</h3>
+
+				<ul class="info-list">
+					<li>
+						<strong>Anaconda</strong>
+					</li>
+					<li>
+						<strong>Jupyter Notebook</strong>
+					</li>
+
+					<li>
+						<strong>SQLite</strong>
+					</li>
+					<li>
+						<strong>Excel</strong>
+					</li>
+					<li>
+						<strong>Tensorflow</strong>
+					</li>
+					<li>
+						<strong>Streamlit</strong>
+					</li>
+
+
+				</ul> <!-- /info-list -->
+			</div>
+
+		</div>
+
+
+	</section> <!-- /process-->
+
+
+	<!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Resume</h5>
+				<h1>More of my credentials.</h1>
+
+			</div>
+		</div> <!-- /section-intro-->
+
+		<div class="row resume-timeline">
+
+			<div class="col-twelve resume-header">
+
+				<h2>Work Experience</h2>
+
+			</div> <!-- /resume-header -->
+
+			<div class="col-twelve">
+
+				<div class="timeline-wrap">
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Senior Tutor</h3>
+							<p>Sept 2015 - Oct 2019</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Kumon North America</h4>
+							<p>During my time with Kumon, I worked with students to help them understand the classroom
+								material
+								and homework worksheets. I also identified the needs of learners and catered to the
+								learning styles of different students. I also had to maintain consistent communication
+								with supervisory
+								staff, while contributing to organizational goals.</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+				</div> <!-- /timeline-wrap -->
+
+			</div> <!-- /col-twelve -->
+
+		</div>
+
+		<div class="row resume-timeline">
+
+			<div class="col-twelve resume-header">
+
+				<h2>Education</h2>
+
+			</div> <!-- /resume-header -->
+
+			<div class="col-twelve">
+
+				<div class="timeline-wrap">
+					<div class="timeline-block">
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>B.Eng Software Engineering</h3>
+							<p>Sept 2018 - Present</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Ontario Tech University</h4>
+							<p>I am currently in my fourth year completing my Software Engineering degree at Ontario
+								Tech University. I also am currently part of our collegiate League of Legends team,
+								which partakes in eSports tournaments hosted for the collegiate level.</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+				</div> <!-- /timeline-wrap -->
+
+			</div> <!-- /col-twelve -->
+
+		</div> <!-- /resume-timeline -->
+
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Portfolio</h5>
+				<h1>Check Out Some of My Work.</h1>
+
+			</div>
+		</div> <!-- /section-intro-->
+
+		<div class="row portfolio-content">
+
+			<div class="col-twelve">
+
+				<!-- portfolio-wrapper -->
+				<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/handwriting.png" alt="Liberty">
+							<a href="#modal-01" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Handwriting Character Detection</h3>
+										<span class="folio-types">
+											Machine Learning
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/league.png" alt="Shutterbug">
+							<a href="#modal-02" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Linom.GG</h3>
+										<span class="folio-types">
+											Data Analysis
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/runnify.png" alt="Clouds">
+							<a href="#modal-03" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Runnify</h3>
+										<span class="folio-types">
+											Android App Development
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/lol-map.jpg" alt="Beetle">
+							<a href="#modal-04" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Should I FF?</h3>
+										<span class="folio-types">
+											Data Science/Machine Learning
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+					<!-- modal popups - begin
+	            ============================================================= -->
+					<div id="modal-01" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="images/handwriting-2.jpeg" alt="" />
+						</div>
+
+						<div class="description-box">
+							<h4>HWD</h4>
+							<p> The first project I spent time on was to classify handwriting input from a user. When
+								searching up beginner data science projects, this one interested me for its simplicity
+								and complexity. The dataset was readily available, and the project steps have a nice
+								introduction to the steps a data science project would incorporate.</p>
+
+							<div class="categories">Machine Learning</div>
+						</div>
+
+						<div class="link-box">
+							<a href="https://share.streamlit.io/l1nom/character-recognition-webapp/draw.py">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-01 -->
+
+					<div id="modal-02" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="images/linomgg-2.png" alt="" />
+						</div>
+
+						<div class="description-box">
+							<h4>Linom.GG</h4>
+							<p>I wanted to try analysing data on something I take see regularly, and what better way
+								than to use data from the game I have played for 6 years! Using the RIOT Games API, I
+								was able to extract data related to an account, such as wins-loss or match history logs.
+								Along with the use Streamlit, I was able to display the data fetched from a give
+								account, and then show related information on a web interface</p>
+
+							<div class="categories">Data Analysis</div>
+						</div>
+
+						<div class="link-box">
+							<a href="https://share.streamlit.io/l1nom/linom.gg/main.py">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-02 -->
+
+					<div id="modal-03" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="images/running2.jpg" alt="" />
+						</div>
+
+						<div class="description-box">
+							<h4>Runnify</h4>
+							<p>As a final project for a mobile development course, we made an Android mobile application
+								that would track a users exercise route, whether it be running, biking, or walking, and
+								then save this information to a database along with important stats such as distance
+								travelled, calories burned, and number of steps taken. This project was a great way to
+								learn and develop a user interface that is different from a web application, while
+								learning a new language and incorporating key user design choices.</p>
+
+							<div class="categories">Android Development</div>
+						</div>
+
+						<div class="link-box">
+							<a
+								href="https://drive.google.com/file/d/15RCQoe8EDMc_0ZR9ht15d6AyWQZLqMYJ/view?usp=sharing">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-03 -->
+
+					<div id="modal-04" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="images/surrender.png" alt="" />
+						</div>
+
+						<div class="description-box">
+							<h4>Should I FF?</h4>
+							<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+								auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+							<div class="categories">Data Science</div>
+						</div>
+
+						<div class="link-box">
+							<a
+								href="https://drive.google.com/file/d/15RCQoe8EDMc_0ZR9ht15d6AyWQZLqMYJ/view?usp=sharing">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-04 -->
+
+					<!-- modal popups - end
+	            ============================================================= -->
+
+				</div> <!-- /portfolio-wrapper -->
+
+			</div> <!-- /twelve -->
+
+		</div> <!-- /portfolio-content -->
+
+	</section> <!-- /portfolio -->
+
+	<div class="row contact-info">
+
+		<div class="col-four tab-full">
+
+			<div class="icon">
+				<i class="icon-pin"></i>
+			</div>
+
+			<h5>Where to find me</h5>
+
+			<p>
+				Somewhere in<br>
+				Toronto, ON<br>
+			</p>
+
+		</div>
+
+		<div class="col-four tab-full collapse">
+
+			<div class="icon">
+				<i class="icon-mail"></i>
+			</div>
+
+			<h5>Email Me At</h5>
+
+			<p>monilp01@gmail.com<br>
+			</p>
+
+		</div>
+
+		<div class="col-four tab-full">
+
+			<div class="icon">
+				<i class="icon-phone"></i>
+			</div>
+
+			<h5>Call Me At</h5>
+
+			<p>Mobile: (647) 966 4057<br>
+			</p>
+
+		</div>
+
+	</div> <!-- /contact-info -->
+
+	</section> <!-- /contact -->
+
+
+	<!-- footer
+   ================================================== -->
+
+	<footer>
+		<div class="row">
+
+			<div class="col-six tab-full pull-right social">
+
+				<ul class="footer-social">
+					<li><a href="https://www.linkedin.com/in/monil-patel-20a8681ba/"><i class="fa fa-linkedin"></i></a>
+					</li>
+					<li><a
+							href="https://mail.google.com/mail/u/0/?fs=1&to=monilp01@gmai.com&su=SUBJECT&body=BODY&&tf=cm"><i
+								class="fa fa-google"></i></a></li>
+					<li><a href="https://www.instagram.com/linom_patel/"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://www.twitch.tv/linom_x"><i class="fa fa-twitch"></i></a></li>
+				</ul>
+
+			</div>
+
+			<div class="col-six tab-full">
+				<div class="copyright">
+					<span>© Copyright Kards 2016.</span>
+					<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>
+				</div>
+			</div>
+
+			<div id="go-top">
+				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+			</div>
+
+		</div> <!-- /row -->
+	</footer>
+
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+
+	<!-- Java Script
+   ================================================== -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+
 </body>
 
 </html>
